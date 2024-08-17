@@ -1,0 +1,9 @@
+TCP client là cung cấp kết nối máy khách cho các dịch vụ mạng TCP 
+Lớp TCP client cung cấp các phương thức đơn gian để kế nối,gửi nhận dữ liệu luồng qua mạng ở chế độ chặn đồng bộ 
+Để kết nối và trao đổi dữ liệu : TcpListener hoặc Socket được tạo bằng TCP ProtocolType phải lắng nghe các yêu cầu kết nối đến.
+có 4 phiên bàn tcp client 
++)TcpClient() khởi tạo 1 phiên bản mới của lớp tcp client
++)Tcpclient(ip) Khởi tạo một phiên bản mới của lớp TcpClient và liên kết nó với điểm cuối cục bộ đã chỉ định.
++)TcpClient(Gia đình địa chỉ) Khởi tạo một phiên bản mới của lớp TcpClient với họ được chỉ định.
++)TcpClient(Chuỗi, Int32) Khởi tạo một phiên bản mới của lớp TcpClient và kết nối với cổng được chỉ định trên máy chủ được chỉ định.
+Mayuki Itou
